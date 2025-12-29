@@ -13,11 +13,13 @@ Usage Notes:
     - Investigate and resolve any discrepancies found during the checks.
 ===============================================================================
 */
+
 -- ====================================================================
 -- Checking 'gold.dim_customers'
 -- ====================================================================
 -- Check for Uniqueness of Customer Key in gold.dim_customers
 -- Expectation: No results 
+
 SELECT 
     customer_key,
     COUNT(*) AS duplicate_count
@@ -30,6 +32,7 @@ HAVING COUNT(*) > 1;
 -- ====================================================================
 -- Check for Uniqueness of Product Key in gold.dim_products
 -- Expectation: No results 
+
 SELECT 
     product_key,
     COUNT(*) AS duplicate_count
@@ -41,6 +44,7 @@ HAVING COUNT(*) > 1;
 -- Checking 'gold.fact_sales'
 -- ====================================================================
 -- Check the data model connectivity between fact and dimensions
+
 SELECT * 
 FROM gold.fact_sales f
 LEFT JOIN gold.dim_customers c
