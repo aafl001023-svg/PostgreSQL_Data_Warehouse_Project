@@ -1,5 +1,4 @@
 # PostgreSQL_Data_Warehouse_Project
-Welcome to the **PostgreSQL Data Warehouse Project** repository! 🚀
 This project demonstrates a comprehensive data warehousing and analytics solution, from building a data warehouse with PostgreSQL to generating actionable insights. 
 
 ---
@@ -32,8 +31,8 @@ These insights empower stakeholders with key business metrics, enabling strategi
 
 ---
 
-## 🛡️ License
+## License
 This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and share this project with proper attribution.
 
-## 🌟 About Me
+## About Me
 Hi there! I'm Luis Ayala. I’m a Data Engineer student and this is my first project.
